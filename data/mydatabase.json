@@ -1,0 +1,282 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "specialty": "Cardiology",
+      "name": "Dr. John Smith",
+      "url": "http://api.example.com/doc-search/hash/7fa891bf095e4408ac1f5f889ad2c644"
+    },
+    {
+      "id": 2,
+      "specialty": "Dermatology",
+      "name": "Dr. Alice Johnson",
+      "url": "http://api.example.com/doc-search/hash/8a2c9b5d8f1144e0b6f2a01c7e3d5967"
+    },
+    {
+      "id": 3,
+      "specialty": "Pediatrics",
+      "name": "Dr. Robert Williams",
+      "url": "http://api.example.com/doc-search/hash/91e18f0b38c64ccbacf93d0a87ea72bf"
+    },
+    {
+      "id": 4,
+      "specialty": "Internal Medicine",
+      "name": "Dr. Emily Davis",
+      "url": "http://api.example.com/doc-search/hash/92f1b871ea744e758d16f1db849f4a6a"
+    },
+    {
+      "id": 5,
+      "specialty": "Orthopedics",
+      "name": "Dr. Michael Rodriguez",
+      "url": "http://api.example.com/doc-search/hash/7a68e410f8e24eb4a9e59e0cf82dd7f7"
+    },
+    {
+      "id": 6,
+      "specialty": "Neurology",
+      "name": "Dr. Olivia Wilson",
+      "url": "http://api.example.com/doc-search/hash/82aa81a4c21d44d9b58c5541c1a28b15"
+    },
+    {
+      "id": 7,
+      "specialty": "Ophthalmology",
+      "name": "Dr. Daniel Moore",
+      "url": "http://api.example.com/doc-search/hash/9f33ec49d2d64dada45a0fb54d5d1f9a"
+    },
+    {
+      "id": 8,
+      "specialty": "Gastroenterology",
+      "name": "Dr. Sophia Thompson",
+      "url": "http://api.example.com/doc-search/hash/abc123xyz789"
+    },
+    {
+      "id": 9,
+      "specialty": "Rheumatology",
+      "name": "Dr. Ethan Martinez",
+      "url": "http://api.example.com/doc-search/hash/def456uvw789"
+    },
+    {
+      "id": 10,
+      "specialty": "Dentistry",
+      "name": "Dr. Ava Davis",
+      "url": "http://api.example.com/doc-search/hash/ghi789jkl012"
+    },
+    {
+      "id": 11,
+      "specialty": "Urology",
+      "name": "Dr. Jackson White",
+      "url": "http://api.example.com/doc-search/hash/mno456pqr789"
+    },
+    {
+      "id": 12,
+      "specialty": "Allergy and Immunology",
+      "name": "Dr. Lily Taylor",
+      "url": "http://api.example.com/doc-search/hash/xyz012abc345"
+    },
+    {
+      "id": 13,
+      "specialty": "Psychiatry",
+      "name": "Dr. Aiden Harris",
+      "url": "http://api.example.com/doc-search/hash/pqr678stu901"
+    },
+    {
+      "id": 14,
+      "specialty": "Otolaryngology",
+      "name": "Dr. Zoey Turner",
+      "url": "http://api.example.com/doc-search/hash/vwx234yza567"
+    },
+    {
+      "id": 15,
+      "specialty": "Endocrinology",
+      "name": "Dr. Mason Scott",
+      "url": "http://api.example.com/doc-search/hash/uvw890rst123"
+    },
+    {
+      "id": 16,
+      "specialty": "Obstetrics and Gynecology",
+      "name": "Dr. Leah Green",
+      "url": "http://api.example.com/doc-search/hash/jkl456mno789"
+    },
+    {
+      "id": 17,
+      "specialty": "Emergency Medicine",
+      "name": "Dr. Liam Clark",
+      "url": "http://api.example.com/doc-search/hash/stu012vwx345"
+    },
+    {
+      "id": 18,
+      "specialty": "Family Medicine",
+      "name": "Dr. Addison Hall",
+      "url": "http://api.example.com/doc-search/hash/yz012abc345"
+    },
+    {
+      "id": 19,
+      "specialty": "Pulmonology",
+      "name": "Dr. Oliver Turner",
+      "url": "http://api.example.com/doc-search/hash/abc345def678"
+    },
+    {
+      "id": 20,
+      "specialty": "Hematology",
+      "name": "Dr. Grace White",
+      "url": "http://api.example.com/doc-search/hash/def678ghi901"
+    },
+    {
+      "id": 21,
+      "specialty": "Nephrology",
+      "name": "Dr. Logan Wilson",
+      "url": "http://api.example.com/doc-search/hash/jkl901mno234"
+    },
+    {
+      "id": 22,
+      "specialty": "Rheumatology",
+      "name": "Dr. Chloe Martinez",
+      "url": "http://api.example.com/doc-search/hash/pqr234stu567"
+    },
+    {
+      "id": 23,
+      "specialty": "Neurology",
+      "name": "Dr. Leo Scott",
+      "url": "http://api.example.com/doc-search/hash/uvw567xyz890"
+    },
+    {
+      "id": 24,
+      "specialty": "Oncology",
+      "name": "Dr. Scarlett Harris",
+      "url": "http://api.example.com/doc-search/hash/xyz890abc123"
+    },
+    {
+      "id": 25,
+      "specialty": "Gastroenterology",
+      "name": "Dr. Eli Turner",
+      "url": "http://api.example.com/doc-search/hash/abc123def456"
+    },
+    {
+      "id": 26,
+      "specialty": "Endocrinology",
+      "name": "Dr. Hannah Clark",
+      "url": "http://api.example.com/doc-search/hash/def456ghi789"
+    },
+    {
+      "id": 27,
+      "specialty": "Pulmonology",
+      "name": "Dr. Isaac Green",
+      "url": "http://api.example.com/doc-search/hash/ghi789jkl012"
+    },
+    {
+      "name": "Dr Nadjia Chabla",
+      "url": "chaabet",
+      "speciality": "Dentistry",
+      "id": 28
+    }
+  ],
+  "specialties": [
+    {
+      "id": 1,
+      "name": "Cardiology"
+    },
+    {
+      "id": 2,
+      "name": "Dermatology"
+    },
+    {
+      "id": 3,
+      "name": "Pediatrics"
+    },
+    {
+      "id": 4,
+      "name": "Internal Medicine"
+    },
+    {
+      "id": 5,
+      "name": "Orthopedics"
+    },
+    {
+      "id": 6,
+      "name": "Neurology"
+    },
+    {
+      "id": 7,
+      "name": "Ophthalmology"
+    },
+    {
+      "id": 8,
+      "name": "Gastroenterology"
+    },
+    {
+      "id": 9,
+      "name": "Rheumatology"
+    },
+    {
+      "id": 10,
+      "name": "Dentistry"
+    },
+    {
+      "id": 11,
+      "name": "Urology"
+    },
+    {
+      "id": 12,
+      "name": "Allergy and Immunology"
+    },
+    {
+      "id": 13,
+      "name": "Psychiatry"
+    },
+    {
+      "id": 14,
+      "name": "Otolaryngology"
+    },
+    {
+      "id": 15,
+      "name": "Endocrinology"
+    },
+    {
+      "id": 16,
+      "name": "Obstetrics and Gynecology"
+    },
+    {
+      "id": 17,
+      "name": "Emergency Medicine"
+    },
+    {
+      "id": 18,
+      "name": "Family Medicine"
+    },
+    {
+      "id": 19,
+      "name": "Pulmonology"
+    },
+    {
+      "id": 20,
+      "name": "Hematology"
+    },
+    {
+      "id": 21,
+      "name": "Nephrology"
+    },
+    {
+      "id": 22,
+      "name": "Rheumatology"
+    },
+    {
+      "id": 23,
+      "name": "Neurology"
+    },
+    {
+      "id": 24,
+      "name": "Oncology"
+    },
+    {
+      "id": 25,
+      "name": "Gastroenterology"
+    },
+    {
+      "id": 26,
+      "name": "Endocrinology"
+    },
+    {
+      "id": 27,
+      "name": "Pulmonology"
+    }
+  ]
+}

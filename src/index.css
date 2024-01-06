@@ -5,7 +5,20 @@ body {
   color: #333;
 }
 a {
-  color: rgb(3, 196, 154);
+  color: #0387c4;
+}
+input, select{
+  border-radius: 5px;
+  border: 1px solid lightblue;
+}
+[theme=dark] select ,[theme=dark] input{
+  border: none;
+}
+[theme=dark] body{
+  background-color: #0387c4;
+}
+[theme=dark] a,body {
+  color: white;
 }
 img {
   max-width: 100%;

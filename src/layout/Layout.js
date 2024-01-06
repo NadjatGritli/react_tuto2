@@ -22,6 +22,12 @@ const Layout = () => {
                         <li>
                             <NavLink to="/products">Products</NavLink>
                         </li>
+                        <li>
+                            <NavLink to="/doctors">doctors</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/speciality">Specialities</NavLink>
+                        </li>
                     </ul>
                 </div>
                 <div className="main_container">
