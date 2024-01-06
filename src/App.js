@@ -24,8 +24,15 @@ import Layout from "./layout/Layout";
 
 //Loaders
 
-import { addDoctor, doctorDetailsLoader, doctorsData } from './doctorsdata/doctorsLoader';
+import {
+  addDoctor,
+  deleteDoctor,
+  doctorDetailsLoader,
+  doctorsData,
+  editDoctor
+} from './doctorsdata/doctorsLoader';
 import { specialitiesLoader } from './doctorsdata/specialitiesLoader';
+import EditDoctor from './pages/doctor__pages/EditDoctor';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -34,7 +41,7 @@ const router = createBrowserRouter(
       <Route path="/about" element={<About />} />
       <Route path="/products/:id" element={<ProductDetails />} />
       <Route path="/products" element={<Products />} />
-      <Route path="/doctors" errorElement={<DoctorError />}>
+      <Route path="/doctors" errorElement={<DoctorError />} action={deleteDoctor}>
         <Route
           index
           element={<Doctors />}
@@ -44,6 +51,12 @@ const router = createBrowserRouter(
           element={<CreateDoctor />}
           loader={specialitiesLoader}
           action={addDoctor}
+        />
+        <Route
+          path='edit/:id'
+          element={<EditDoctor />}
+          loader={doctorDetailsLoader}
+          action={editDoctor}
         />
 
         <Route

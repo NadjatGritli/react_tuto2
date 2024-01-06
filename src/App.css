@@ -27,30 +27,38 @@
 .App-link {
   color: #61dafb;
 }
-main .main_container{
+
+main .main_container {
   flex-grow: 1;
 }
-.CreateDoctor form{
+
+.CreateDoctor form {
   display: flex;
   flex-direction: column;
 }
-.CreateDoctor input,.CreateDoctor select,.CreateDoctor button{
+
+.CreateDoctor input,
+.CreateDoctor select,
+.CreateDoctor button {
   margin-bottom: 15px;
   padding: 10px;
   max-width: 100%;
 }
-.CreateDoctor button{
+
+.CreateDoctor button {
   border-radius: 5px;
   border: none;
   margin-top: 15px;
   text-align: center;
   font-size: 16px;
 }
-.CreateDoctor button:hover{
+
+.CreateDoctor button:hover {
   background-color: #0387c4;
   color: white;
 }
-.docItm a{
+
+.docItm {
   display: flex;
   justify-content: space-between;
   margin: 15px;
@@ -58,16 +66,54 @@ main .main_container{
   padding: 20px;
   border-radius: 10px;
 }
-.docItm a:hover{
+
+.docItm:hover {
   transform: translateX(5px)
 }
-[theme=dark] .docItm a{
+
+.docTools {
+  display: flex;
+  position: absolute;
+  top: 25px;
+  right: 0;
+}
+
+.doctorsListingElemnt {
+  position: relative;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 25px 15px;
+}
+
+.docTools a,
+.docTools button {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: transparent;
+  color: white;
+}
+
+.editDoc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 10px;
+}
+
+[theme=dark] .docItm {
   border-color: #61dafb;
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

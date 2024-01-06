@@ -23,16 +23,39 @@ export const addDoctor = async ({ request }) => {
         url: data.get('url'),
         speciality: data.get('speciality'),
     }
-    fetch("http://localhost:8000/doctors",{
-        method:"POST",
-        headers:{
-            "Content-type":"application/json"
+    fetch("http://localhost:8000/doctors", {
+        method: "POST",
+        headers: {
+            "Content-type": "application/json"
         },
         body: JSON.stringify(newDoctor)
-    }).then(()=>{
+    }).then(() => {
         return redirect("/doctors");
-    }).catch((err)=>{
+    }).catch((err) => {
         console.log(err)
     })
     return null
+}
+export const deleteDoctor = async ({ request }) => {
+    const data = await request.formData();
+    const id = data.get('id')
+    fetch("http://localhost:8000/doctors/" + id, {
+        method: request.method
+    })
+    return null
+}
+export const editDoctor = async ({ request }) => {
+    const data = await request.formData();
+    const id = data.get("id");
+    const doctor = {
+        name: data.get('name'),
+        speciality: data.get('speciality'),
+        url: data.get('url'),
+    }
+    await fetch("http://localhost:8000/doctors/" + id, {
+        method: "PUT",
+        headers:{"content-type":"application/json"},
+        body:JSON.stringify(doctor)
+    })
+    return redirect('/doctors/'+id);
 }
